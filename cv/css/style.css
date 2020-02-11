@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #C9C5C2;
+    width: 80%;
+    padding-left: 0;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    height: 400px;
+}
+
+.column1 {
+    /* display: flex; */
+    width: 40%;
+    text-align: left;
+}
+
+.column2 {
+    display: flex;
+    width: 60%;
+    background-color: white;
+}
+header{
+    float: inherit;
+}

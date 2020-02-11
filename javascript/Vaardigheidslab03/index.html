@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Labo 03</title>
+</head>
+<body>
+<script>
+    var testarray = new Array('een','twee','3','vier');
+    testarray.push(5);
+    document.write("<br>dit is de array: " + testarray);
+    document.write("<br> Datatype van vijfde element is: " + typeof testarray[4] );
+    testarray.pop();
+    document.write("<br>dit is de array: " + testarray);
+    testarray.unshift('nul');
+    document.write("<br>dit is de array: " + testarray);
+    testarray.shift();
+    document.write("<br> Datatype van index[0] is: " + typeof testarray['nul'] );
+    document.write("<br>dit is de array: " + testarray);
+    testarray.splice(1,1);
+    document.write("<br>dit is de array: " + testarray);
+    testarray.splice (2,1);
+    document.write("<br>dit is de array: " + testarray);
+</script>
+
+</body>
+</html>

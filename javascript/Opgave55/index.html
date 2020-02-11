@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Opgave 55</title>
+</head>
+<body>
+<script>
+    var leeftijd = parseInt(prompt("wat is je leeftijd?"));
+    var creditcard = confirm("Heeft u een creditcard?");
+    if(creditcard == true && leeftijd >= 18){
+        document.write("<h1>Je mag 1000 euro lenen</h1>");
+    }else if(creditcard == false && leeftijd >= 18){
+        document.write("<h1>Je mag 500 euro lenen</h1>");
+    }else{
+        document.write("<h1>Je mag geen geld lenen</h1>");
+    }
+</script>
+
+</body>
+</html>

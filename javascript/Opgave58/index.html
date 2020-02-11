@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Opgave 58</title>
+</head>
+<body>
+<script>
+    var datum = new Date();
+    var vandaag = datum.getDay();
+    var uur = datum.getHours();
+    document.write("Het is vandaag: " + datum + "<br>");
+    switch (vandaag) {
+        case 1:
+            document.write("Het is vandaag de eerste dag van de week");
+            break;
+        case 2:
+            document.write("Het is vandaag de tweede dag van de week");
+            break;
+        case 3:
+            document.write("Het is vandaag de derde dag van de week");
+            break;
+        case 4:
+            document.write("Het is vandaag de vierde dag van de week");
+            break;
+        case 5:
+            document.write("Het is vandaag de vijfde dag van de week");
+            break;
+            default:
+                document.write("WEEKEND!!!")
+
+    }
+</script>
+
+</body>
+</html>

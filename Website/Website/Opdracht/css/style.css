@@ -1,0 +1,195 @@
+@-webkit-keyframes rotate-scale-up {
+    0% {
+        -webkit-transform: scale(1) rotateZ(0);
+        transform: scale(1) rotateZ(0);
+    }
+    50% {
+        -webkit-transform: scale(2) rotateZ(180deg);
+        transform: scale(2) rotateZ(180deg);
+    }
+    100% {
+        -webkit-transform: scale(1) rotateZ(360deg);
+        transform: scale(1) rotateZ(360deg);
+    }
+}
+
+@keyframes rotate-scale-up {
+    0% {
+        -webkit-transform: scale(1) rotateZ(0);
+        transform: scale(1) rotateZ(0);
+    }
+    50% {
+        -webkit-transform: scale(2) rotateZ(180deg);
+        transform: scale(2) rotateZ(180deg);
+    }
+    100% {
+        -webkit-transform: scale(1) rotateZ(360deg);
+        transform: scale(1) rotateZ(360deg);
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgb(114, 212, 158);
+    width: 80%;
+    padding-left: 0;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+nav {
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+nav ul {
+    text-align: center;
+    margin: 0 0 0 0;
+    padding-left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+nav ul li {
+    list-style-type: none;
+    width: 33.3%;
+    background: linear-gradient(#9FB3B5, #E3E9EA, #7C9799);
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul li a {
+    font-size: 1.7rem;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    color: aqua;
+}
+
+header,
+footer {
+    padding: 15px 0;
+    background-color: #2E2E2E;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.title {
+    border-top: rgb(114, 168, 212) 3px solid;
+    border-bottom: rgb(114, 140, 212) 3px solid;
+}
+
+h1 {
+    color: aqua;
+}
+
+.foot {
+    border-top: rgb(114, 168, 212) 3px solid;
+    border-bottom: rgb(114, 140, 212) 3px solid;
+    padding: 20px 0;
+}
+
+h1,
+h2,
+.row h3 {
+    padding: 15px 0;
+}
+
+h4 {
+    padding-top: 35px;
+}
+
+p {
+    padding-top: 15px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+    color: #2E2E2E;
+    text-align: center;
+}
+
+.col {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+    border: #2E2E2E 6px solid;
+    border-radius: 25%;
+}
+
+.foto {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.animatie {
+    -webkit-animation: rotate-scale-up 0.65s linear both;
+    animation: rotate-scale-up 0.65s linear both;
+}
+
+#ik {
+    max-width: 50%;
+    transform: rotate(90deg);
+    padding-top: auto;
+}
+
+@font-face {
+    font-family: ornament;
+    src: url(../fonts/Nymphette.ttf);
+}
+
+.ornament {
+    font-family: ornament;
+    font-size: 6rem;
+    color: #958694;
+    text-align: center;
+}
+
+#Gent {
+    max-width: 100%;
+}
+
+#lippens {
+    max-width: 100%;
+}
+
+#stadhuis {
+    max-width: 90%;
+}
+
+#Lucca {
+    max-width: 100%;
+    transform: rotate(90deg);
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.fa-facebook {
+    background: white;
+    font-size: 1.5rem;
+}
+
+.mail {
+    color: black;
+}

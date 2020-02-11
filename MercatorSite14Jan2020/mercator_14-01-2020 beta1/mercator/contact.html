@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/stylecontact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.css" />
+
+    <title>De mercator</title>
+</head>
+
+<body>
+    <div class="container">
+        <!--eventueel backgroundimage-->
+        <div class="backgroundimage"></div>
+        <header class="header">
+            <div class="titel">
+                <!--hier komt de titel, idee over opmaak?-->
+                <img src="img/logo.png" alt="">
+
+            </div>
+        </header>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html"><i class="fas fa-igloo"></i> Home</a>
+                    </li>
+                    <li>
+                        <a href="reacties.html"><i class="fab fa-quora"></i>  Testemonials</a>
+                    </li>
+                    <li>
+                        <a href="galerie.html"><i class="fas fa-images"></i>  Galerie</a>
+                    </li>
+                    <li>
+                        <a href="contact.html"><i class="far fa-address-book"></i>  Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+
+            <!--hieronder het menu, href is nog niet ingevuld voor obvious reasons-->
+
+            <!--hieronder zijn er 5 grote blokken, elk met 1 div met foto en een div met tekst.-->
+            <!--5 fouten op de pagina zijn de oningevulde source van de images.-->
+            <div class="contactformulier">
+
+                <form action="verstuurd.html">
+                    <label for="voornaam">Voornaam</label><br>
+                    <input type="text" id="voornaam" name="voornaam" placeholder="Uw naam.."><br>
+
+                    <label for="achternaam">Achternaam</label><br>
+                    <input type="text" id="achternaam" name="achternaam" placeholder="Uw achternaam...">
+                    <br>
+
+
+
+                    <label for="onderwerp">Onderwerp</label><br>
+                    <textarea id="onderwerp" name="onderwerp" placeholder="Uw bericht.." style="height:200px"></textarea><br>
+
+                    <input type="submit" value="Verzenden">
+                    <br>
+                    <br><br>
+                </form>
+            </div>
+
+
+        </div>
+        <footer>
+            <div class="einde">
+                Copyrighted by DenMercatorCrew
+                <!--eindwoord-->
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>

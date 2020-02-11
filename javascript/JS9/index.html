@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS9</title>
+</head>
+<body>
+<script>
+    var kleur = new Array('rood','geel','blauw','groen','zwart','wit');
+    document.write(kleur);
+    function zToa(kleuren) {
+        kleuren = kleur.sort();;
+        return kleur.reverse();
+    }
+   document.write('<br>' + zToa(kleur));
+</script>
+</body>
+</html>

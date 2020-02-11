@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>For-in Loop</title>
+</head>
+<body>
+
+<script>
+   /* for(x=0;x<10;x++){
+    doument.write(x)
+    }
+    var studenten = ['Bert','Joyce','Michael','Karel','Christophe','Jason'];
+    for (var student in studenten){
+    document.write(student + '<br>');
+    }*/
+    var films= [];
+    films['Titanic']={
+        genre:'romantic, drama',
+        jaartal: 1997,
+        hoofdrollen: 'Leonardo DiCaprio, Kate Winslet'
+    };
+    films['Borat']={
+        genre:'komedie',
+        jaartal: 2005,
+        hoofdrollen: 'Sacha'
+    };
+    films['The green Mile']={
+        genre:'waargebeurd',
+        jaartal: 1999,
+        hoofdrollen: 'Tom Hanks'
+    };
+    for (var film in films){
+        document.write('Film' +film + '<br>');
+        for (var property in films[film]){
+            document.write(property + ':' +films[film][property] +'<br>');
+        }
+    }
+
+</script>
+</body>
+</html>

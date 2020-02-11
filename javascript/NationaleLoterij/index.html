@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nationale Loterij</title>
+</head>
+<body>
+<script>
+    var leeftijd = parseInt(prompt("Geef uw leeftijd"));
+    alert(leeftijd);
+    if(leeftijd>=18){
+        document.write("Je bent " + leeftijd + "jaar oud, je mag deelnemen aan de spelen van de Nationale Loterij.");
+    var bulletin = parseInt(prompt("Hoeveel vakjes wil je invullen? 12-10-8-6-4-2"));
+    document.write("<br>U wil graag " + bulletin + "vakjes invullen<br>");
+    switch (bulletin){
+        case 12:
+            document.write("Het kost je 20€");
+            break;
+            case 10:
+                document.write("Het kost je 18€");
+                break;
+                case 8:
+                    document.write("Het kost je 16€");
+                    break;
+                    case 6:
+                        document.write("Het kost je 12€");
+                        break;
+                        case 4:
+                            document.write("Het kost je 8€");
+                            break;
+                            case 2:
+                                document.write("Het kost je 4€");
+                                break;
+                                default:
+                                    document.write("U gaf een verkeerd aantal in")
+    }
+    }
+
+
+else{
+   document.write( "Om deel te nemen aan de spelen van de Nationale Loterij moet je minimum 18 jaar zijn.");
+    }
+
+</script>
+
+</body>
+</html>

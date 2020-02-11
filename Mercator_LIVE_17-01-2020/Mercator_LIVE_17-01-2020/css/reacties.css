@@ -1,0 +1,54 @@
+#hoofdstuk2 {
+    font-size: 1.5rem;
+    border-radius: 12px;
+    border: solid 1px white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    background-color: #12CBC4;
+}
+
+.reactie {
+    text-align: center;
+    padding: 2rem;
+    margin: 2rem 3rem;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    border: solid 1px white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-shadow: 0 8px 12px 2px;
+}
+
+
+/* FOUTJE  */
+
+
+/* body {
+    margin-top: 25px;
+} */
+
+#reactietitel {
+    padding-top: 25px;
+    text-align: center;
+    background-color: #12CBC4;
+}
+
+.ornament {
+    font-family: ornament;
+    font-size: 6rem;
+    color: rgb(118, 96, 214);
+    text-align: center;
+    margin: 0;
+}
+
+@font-face {
+    font-family: ornament;
+    src: url(../fonts/Nymphette.ttf);
+}

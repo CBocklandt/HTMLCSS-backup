@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    var telefoonnummer = prompt("Geef uw telefoonnummer in aub");
+    var getal = new Array();
+    getal[0] = 'nul';
+    getal[1] = 'een';
+    getal[2] = 'twee';
+    getal[3] = 'drie';
+    getal[4] = 'vier';
+    getal[5] = 'vijf';
+    getal[6] = 'zes';
+    getal[7] = 'zeven';
+    getal[8] = 'acht';
+    getal[9] = 'negen';
+    var lengte = telefoonnummer.length;
+    for (x=0; x < lengte; x++){
+// switch want we hebben meer dan 3 voorwaarden
+        cijfer = telefoonnummer.charAt(x)
+        switch (cijfer) {
+            case '0':
+                document.write('nul');
+                break;
+            case '1':
+                document.write('een');
+                break;
+            case '2':
+                document.write('twee');
+                break;
+            case '3':
+                document.write('drie');
+                break;
+            case '4':
+                document.write('vier');
+                break;
+            case '5':
+                document.write('vijf');
+                break;
+            case '6':
+                document.write('zes');
+                break;
+            case '7':
+                document.write('zeven');
+                break;
+            case '8':
+                document.write('acht');
+                break;
+            case '9':
+                document.write('negen');
+                break;
+        }
+    }
+    //  document.write(x + '<br>')
+    // document.write('<br> Uw telefoonnummer:'+ telefoonnummer + getal );
+</script>
+</body>
+</html>

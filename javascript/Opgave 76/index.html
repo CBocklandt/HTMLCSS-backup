@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Opgave76</title>
+</head>
+<body>
+<script>
+    var vandaag = new Date();
+    var uur = vandaag.getHours();
+    var minuten = vandaag.getMinutes();
+    var seconden = vandaag.getSeconds();
+    var milliseconden = vandaag.getMilliseconds();
+    var lus = milliseconden;
+    var finish = lus + 3;
+    document.write('<br>While-lus start om: ' + uur + ':' + minuten +':' + seconden + ':' + milliseconden);
+    while (lus<finish){
+        lus = new Date().getMilliseconds();
+        document.write('<br>Deze lus om: ' + lus)
+    }
+</script>
+</body>
+</html>

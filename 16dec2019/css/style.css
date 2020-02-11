@@ -1,0 +1,17 @@
+body {
+    background-color: magenta;
+}
+
+h1 {
+    color: mediumslateblue;
+}
+
+p {
+    font-size: 25px;
+    color: moccasin;
+    background-color: orangered;
+}
+
+#rood {
+    background-color: red;
+}

@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Opgave 56</title>
+</head>
+<body>
+<script>
+    var gemeente = prompt("Uw gemeente?");
+    var postcode = parseInt(prompt("Uw postcode"));
+    gemeente = gemeente.toLowerCase();
+    if (gemeente == "oostende" && 1000<postcode<9000){
+        alert ("U betaald geen bezorgkosten");
+    }else{
+        alert("De bezorgkosten zijn 3 euro");}
+
+
+</script>
+
+</body>
+</html>

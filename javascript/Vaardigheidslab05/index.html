@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vaardigheidslab 05</title>
+</head>
+<body>
+<h2>
+    Lab 01
+</h2>
+<h3>
+    Factuur
+</h3>
+<script>
+    var klantnaam = prompt("Voer je eigen naam in");
+    var aantal = parseInt(prompt("Aantal boeken te bestellen?"));
+    var titel = "JavaScript";
+    var prijs = 29.90;
+    var bedrag = aantal*prijs;
+    var btw = bedrag*0.06;
+    var totaal = bedrag+btw;
+    document.write(
+        "<br>Bedankt voor je bestelling:" +klantnaam);
+    document.write("<br>Boektitel is: " +titel);
+    document.write("<br>Aantal te bestellen: " +aantal);
+    document.write("<br>Prijs per boek is: " +prijs.toFixed(2));
+    document.write("<br>Bedrag is: " +bedrag.toFixed(2));
+    document.write("<br>BTW is: " +btw.toFixed(2));
+    document.write("<br>Toataal inclusief BTW: " +totaal.toFixed(2));*/
+    var eindDatum = prompt("wat is de einddatum JJJJ-MM-DD");
+    var date = new Date(eindDatum);
+    var nu = Date.now();
+    var dag = 86400000;
+    var rest = ((date - nu)/dag);
+    document.write("Er zijn nog " +rest.toFixed(0)+ "dagen te gaan");
+</script>
+
+</body>
+</html>

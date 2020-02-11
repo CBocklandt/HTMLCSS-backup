@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Liedjes</title>
+</head>
+<body>
+<script>
+    var liedjes = [];
+    liedjes['hello']={
+        genre: 'romantic',
+        artiest: 'Lionel Richie',
+        jaar: 1985,
+    };
+    liedjes ['Born Slippy']={
+        genre: 'dance',
+        artiest: 'Underworld',
+        jaar: 1997,
+    };
+    liedjes ['Simply the best']={
+        genre: 'romantic',
+        artiest: 'Tina Turner',
+        jaar: 1991,
+    };
+    for (var lied in liedjes){
+        document.write('lied: ' + lied + '<br>');
+        for (var property in liedjes[lied]) {
+            document.write( property + ':' + liedjes[lied][property] + '<br>');
+        } document.write('<br>');
+    };
+</script>
+
+</body>
+</html>

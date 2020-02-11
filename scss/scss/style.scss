@@ -1,0 +1,19 @@
+$background: #709AFF;
+$headers: #00E1FF;
+$text: #0C94E8;
+
+
+.container{
+  background-color: $background;
+h1{
+  color: $headers;
+}
+.sub{
+  h2{
+    color: $headers;
+  }
+  p{
+    color: $text;
+  }
+}
+}

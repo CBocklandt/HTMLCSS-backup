@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS6</title>
+</head>
+<body>
+<script>
+    var lengte = parseInt(prompt('Geef de lengte van de balk'));
+    var breedte = parseInt(prompt('Geef de breedte van de balk'));
+     var hoogte = parseInt(prompt('Geef de hoogte van de balk'));
+     function inhoudbalk(l,b,h){
+         var inhoud = l*b*h;
+         return inhoud;
+     }
+
+    document.write('De inhoud van de balk is: ' + inhoudbalk(lengte,breedte,hoogte) + 'm³');
+</script>
+</body>
+</html>

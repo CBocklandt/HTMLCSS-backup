@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OPgave 72</title>
+</head>
+<body>
+<script>
+    var tekst = "Hij lijkt een beetje op Nelson Mandela.";
+    var kleineletters = tekst.toLowerCase();
+    var lengte = tekst.length;
+    var a = 0;
+    var e = 0;
+    var i = 0;
+    var o = 0;
+    var u = 0;
+    for(x=0; x<lengte; x++){
+        teken = kleineletters.charAt(x);
+        document.write(teken);
+        switch (teken) {
+            case 'a':
+                a++;
+                break;
+            case 'e':
+                e++;
+                break;
+            case 'i':
+                i++;
+                break;
+            case 'o':
+                o++;
+                break;
+            case 'u':
+                u++;
+                break;
+        }
+    }
+    document.write("<br>Aantal a's: " + a );
+    document.write("<br>Aantal e's: " + e );
+    document.write("<br>Aantal i's: " + i );
+    document.write("<br>Aantal o's: " + o );
+    document.write("<br>Aantal u's: " + u );
+</script>
+
+</body>
+</html>

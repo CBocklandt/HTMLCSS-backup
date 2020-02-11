@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VardigheidsLab 09</title>
+</head>
+<body>
+<script>
+    var rol = prompt("Wat is je rol?");
+    var code = prompt("Wat is je inlogcode?");
+    switch (rol){
+        case "admin":
+            if (code=="admin"){
+                alert("Hello admin");
+            }else{
+                alert("code ongeldig");
+            }
+            break;
+        case "student":
+            if (code== "student"){
+                alert("Hello student");
+            }else{
+                alert("code ongeldig");
+            }
+            break;
+        default:
+            alert("code ongeldig");
+    }
+
+
+
+</script>
+</body>
+</html>
